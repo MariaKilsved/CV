@@ -433,7 +433,16 @@ a {
 
 .tooltip,
 .display-container {
-    position: relative
+    position: relative;
+    text-align: center;
+}
+
+.avatar {
+    border-radius: 50%;
+    margin: 3rem;
+    margin-bottom: 5rem;
+    width: 40%;
+    height: auto;
 }
 
 .tooltip .text {
