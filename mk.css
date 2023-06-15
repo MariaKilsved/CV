@@ -1623,3 +1623,9 @@ a {
 .hover-border-light-gray:hover {
     border-color: #f1f1f1!important
 }
+
+@media(max-width: 1333px) and (min-width: 601px) {
+    .display-bottommiddle h2{
+        font-size: 20px;
+    }
+}
