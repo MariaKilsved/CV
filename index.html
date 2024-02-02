@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="mk.css">
+<link rel="stylesheet" type="text/css" href="print.css" media="print" />
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
@@ -20,14 +21,16 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     <!-- Left Column -->
     <div class="third">
     
-      <div class="white text-grey card-4">
+      <div class="white text-grey card-4 invalidate-on-print">
+<div class="print-card no-break">
+
         <div class="display-container">
           <img src="foto.jpg" class="avatar" alt="Avatar">
           <div class="display-bottommiddle container text-grey">
             <h2>Maria Kilsved</h2>
           </div>
         </div>
-        <div class="container">
+        <div class="left-container one-percent-em-p-top">
           <p><i class="fa fa-briefcase fa-fw margin-right large text-blue"></i>Systemutvecklare .Net</p>
           <p><i class="fa fa-home fa-fw margin-right large text-blue"></i>Stockholm</p>
           <p><a href="mailto:maria.kilsved@outlook.com"><i class="fa fa-envelope fa-fw margin-right large text-blue"></i>maria.kilsved@outlook.com</a></p>
@@ -81,31 +84,42 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
             <div class="tag">Travis</div>
             <div class="tag">WordPress</div>
           </div>
-          <hr>
-          <p class="large text-theme"><b><i class="fa fa-wrench fa-fw margin-right text-blue"></i>Verktyg</b></p>
-          <div class="tag-container">
-            <div class="tag">npm</div>
-            <div class="tag">pip</div>
-            <div class="tag">Git BASH</div>
-            <div class="tag">Git GUI</div>
-            <div class="tag">Postman</div>
-            <div class="tag">MAMP</div>
-            <div class="tag">Figma</div>
-            <div class="tag">Illustrator</div>
-            <div class="tag">Photoshop</div>
-            <div class="tag">GIMP</div>
-            <div class="tag">Swagger</div>
-            <div class="tag">NSwag</div>
-            <div class="tag">Bettercap</div>
-            <div class="tag">Nmap</div>
-            <div class="tag">VirtualBox</div>
-            <div class="tag">DB Browser</div>
-            <div class="tag">MongoDBCompass</div>
-            <div class="tag">MySQL Workbench</div>
-            <div class="tag">SQL Server Management Studio</div>
           </div>
-          <hr>
-          <p class="large text-theme"><b><i class="fa fa-graduation-cap fa-fw margin-right text-blue"></i>Färdigheter</b></p>
+        </div>
+
+
+
+
+
+        <div class="print-card print-p-top no-break break-before-on-print">
+          <div class="left-container p-bottom no-break">
+            <hr class="hide-on-print">
+            <p class="large text-theme print-p-top no-break"><b><i class="fa fa-wrench fa-fw margin-right text-blue"></i>Verktyg</b></p>
+            <div class="no-break">
+            <div class="tag-container no-break">
+              <div class="tag">npm</div>
+              <div class="tag">pip</div>
+              <div class="tag">Git BASH</div>
+              <div class="tag">Git GUI</div>
+              <div class="tag">Postman</div>
+              <div class="tag">MAMP</div>
+              <div class="tag">Figma</div>
+              <div class="tag">Illustrator</div>
+              <div class="tag">Photoshop</div>
+              <div class="tag">GIMP</div>
+              <div class="tag">Swagger</div>
+              <div class="tag">NSwag</div>
+              <div class="tag">Bettercap</div>
+              <div class="tag">Nmap</div>
+              <div class="tag">VirtualBox</div>
+              <div class="tag">DB Browser</div>
+              <div class="tag">MongoDBCompass</div>
+              <div class="tag">MySQL Workbench</div>
+              <div class="tag">SQL Server Management Studio</div>
+            </div>
+            <hr class="no-break">
+            </div>
+          <p class="large text-theme no-break"><b><i class="fa fa-graduation-cap fa-fw margin-right text-blue"></i>Färdigheter</b></p>
           <div class="tag-container">
             <div class="tag">REST API</div>
             <div class="tag">SCRUM</div>
@@ -121,13 +135,22 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
             <div class="tag">Googling</div>
           </div>
           <hr>
-          <p class="large text-theme"><b><i class="fa fa-globe fa-fw margin-right text-blue"></i>Språk</b></p>
+          <p class="large text-theme no-break"><b><i class="fa fa-globe fa-fw margin-right text-blue"></i>Språk</b></p>
           <div class="tag-container">
             <div class="tag">Svenska</div>
             <div class="tag">Engelska</div>
           </div>
+          </div>
         </div>
-      </div><br>
+
+
+
+
+
+
+
+
+        </div>
 
     <!-- End Left Column -->
     </div>
@@ -136,7 +159,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     <div class="twothird">
 
 
-      <div class="container card white margin-bottom">
+      <div class="container card white margin-bottom no-break">
         <h2 class="text-grey padding-16"><i class="fa fa-hashtag fa-fw margin-right xxlarge text-blue"></i>Python och IT-Säkerhet</h2>
 
         <div class="container">
@@ -155,7 +178,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
       </div>
       
 
-      <div class="container card white margin-bottom">
+      <div class="container card white margin-bottom no-break break-after-on-print">
         <h2 class="text-grey padding-16"><i class="fa fa-asterisk fa-fw margin-right xxlarge text-blue"></i>Systemutveckling</h2>
 
         <div class="container">
@@ -186,7 +209,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         </div>
       </div>
     
-      <div class="container card white margin-bottom">
+      <div class="no-break print-m-top">
+      <div class="container card white margin-bottom no-break">
         <h2 class="text-grey padding-16"><i class="fa fa-code fa-fw margin-right xxlarge text-blue"></i>Frontend</h2>
         <div class="container">
           <h5 class="opacity"><b>Kunskapshuset</b></h5>
@@ -229,7 +253,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         </div>
       </div>
 
-      <div class="container card white margin-bottom">
+      <div class="container card white margin-bottom no-break">
         <h2 class="text-grey padding-16"><i class="fa fa-university fa-fw margin-right xxlarge text-blue"></i>Universitetsstudier</h2>
         <div class="container">
           <h5 class="opacity"><b>Blandade universitetsstudier / Stockholms Universitet</b></h5>
@@ -237,7 +261,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <p>Sociologi, Statistik, Nationalekonomi och Religionshistoria (totalt 187,5 poäng). </p>
         </div>
       </div>
-
+    </div>
     <!-- End Right Column -->
     </div>
     

@@ -1,0 +1,45 @@
+body {
+    zoom: 80%;
+  }
+
+.no-break {
+    page-break-inside: avoid;
+}
+
+.break-before-on-print {
+    page-break-before: always;
+    margin-top: 16px;
+}
+
+.break-after-on-print {
+    page-break-after: always;
+}
+
+.hide-on-print {
+    display: none;
+}
+
+.invalidate-on-print {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.print-card {
+    background-color: #fff;
+    -webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 16px;
+}
+
+.print-p-top {
+    padding-top: 2px;
+}
+
+.print-m-top {
+    margin-top: 16px;
+}
+
+.left-container {
+    padding: 0 16px 16px;
+}
